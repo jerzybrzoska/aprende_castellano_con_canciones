@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title></title>
+   <link rel="stylesheet" href="myBlog.css">
+   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+   <script type="text/x-mathjax-config">
+
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$']]}});
+
+</script>
+   <style>
+* { box-sizing: border-box }
+
+#settings { font-size: 0.85rem; text-align: right }
+
+html, .large { font-size: 37px;
+                    color: #000000;
+                background-color: #ffffff;
+                font-family: "APHont", sans-serif;
+                text-align: justify
+
+                        }
+
+a { color: #333399 }
+
+blockquote, button, select, .bq, .required {
+                color: #000000fc;
+                background-color: #fffffffc;
+                font-size: 0.85rem;
+                font-family: "APHont", sans-serif; }
+
+/*
+@media (prefers-color-scheme: dark) {
+ html, .large { font-size: 36px;
+                color: #ffffff;
+                background-color: #000000;  }
+
+ a {color: #ffccff}
+
+ blockquote, button, select, .bq {
+               color: #fffffffc;
+               background-color: #000000fc;
+               font-size: 0.85rem; }
+}
+
+@media (prefers-color-scheme: light) {
+ html, .large { font-size: 36px;
+                    color: #000000;
+                background-color: #ffffff; }
+
+blockquote, button, select, .bq, .required {
+                color: #000000fc;
+                background-color: #fffffffc;
+                font-size: 0.85rem; }
+
+}
+*/
+
+
+/*.ul-horizontal { display: inline; }   This does not work. */
+ul { text-align: center }
+
+ul li { display: inline;
+                font-size: 62.5%;
+                margin:  50px;
+                /*padding: 0px;*/ }
+
+.crunchify-link {
+    padding: 2px 8px 4px 8px !important;
+    color: white;
+    font-size: 12px;
+    border-radius: 2px;
+    margin-right: 2px;
+    cursor: pointer;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+    -moz-box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+    -webkit-box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+    margin-top: 2px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.crunchify-link:hover,.crunchify-link:active {
+    color: white;
+}
+
+.crunchify-twitter {
+    background: #00aced;
+}
+
+.crunchify-twitter:hover,.crunchify-twitter:active {
+    background: #0084b4;
+}
+
+.crunchify-facebook {
+    background: #3B5997;
+}
+
+.crunchify-facebook:hover,.crunchify-facebook:active {
+    background: #2d4372;
+}
+
+.crunchify-googleplus {
+    background: #D64937;
+}
+
+.crunchify-googleplus:hover,.crunchify-googleplus:active {
+    background: #b53525;
+}
+
+.crunchify-buffer {
+    background: #444;
+}
+
+.crunchify-buffer:hover,.crunchify-buffer:active {
+    background: #222;
+}
+
+.crunchify-pinterest {
+    background: #bd081c;
+}
+
+.crunchify-pinterest:hover,.crunchify-pinterest:active {
+    background: #bd081c;
+}
+
+.crunchify-linkedin {
+    background: #0074A1;
+}
+
+.crunchify-linkedin:hover,.crunchify-linkedin:active {
+    background: #006288;
+}
+
+.crunchify-social {
+    margin: 20px 0px 25px 0px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 12px;
+}
+
+
+
+/* background-color: #fff2e6F2 */
+
+</style>
+
+</head>
+<body class="large">
+<!-- <a href="#" onclick="changeCSS('myBlog.css', 0);">Light Mode</a> -->
+ <div id="settings">
+
+ <a id="dm" href="#" onclick="darkMode()">Dark Mode</a>
+ <a id="lm" href="#" onclick="lightMode()">Light Mode</a>
+
+ </div>
+          <div>
+<root><p>Escucha la canción <a href="https://youtu.be/yyJt5_Hlm_A">aquí</a>. Lea la letra de la canción <a href="https://www.letras.com/tikitiklip/la-seorita-aseorada/">aquí</a>.</p><br/><p>Esta era una vez</p><p>Una Señorita</p><p>Con sombrero blanco</p><p>Y muchos <a href="#bo">botones</a></p><p>Y esa señorita</p><p>Tan <a href="https://dle.rae.es/ase%C3%B1orado?m=form">aseñorada</a></p><p>Nunca se reía</p><p>Y siempre lloraba</p><p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Botones.jpg/220px-Botones.jpg" alt=""/><br id="bo"/></p><p>Pasó un caminante</p><p>¿Por qué lloras Niña?</p><p>Porque ya no tengo</p><p>Lo que antes tenía</p><p>¿Pero qué tenías?</p><p>Tenía una <a href="#ra">rana</a></p><p>Que todas las noches</p><p>Cro-Cro-Cro cantaba</p><p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Australia_green_tree_frog_%28Litoria_caerulea%29_crop.jpg/250px-Australia_green_tree_frog_%28Litoria_caerulea%29_crop.jpg" alt=""/><br id="ra"/></p><p>¿Dónde está la rana?</p><p>Se fue a la laguna</p><p>¿Y esa lagunita?</p><p>Esta llena de agua</p><p>¿Y dónde está el agua?</p><p>Se fue por el rio</p><p>¿Y el agua del río?</p><p>Hasta el mar llegaba</p><p>Pobre señorita</p><p>De sombrero blanco</p><p>Pobre señorita</p><p>Tan aseñorada</p><p>Yo te doy mi mano</p><p>Que es como una rana</p><p>Y mi amor te doy</p><p>Puro como el agua</p><p>Y si quieres siempre</p><p>Te puedo cantar</p><p>Cro-Cro por la noche</p><p>Como aquella rana</p><p>Y el buen caminante</p><p><a href="https://es.wiktionary.org/wiki/puesto">Puesto</a> en cuatro patas</p><p>Se <a href="https://es.wiktionary.org/wiki/puso">puso</a> a cantar</p><p>Cro-Cro como rana</p><p>Y esta señorita</p><p>Tan aseñorada</p><p>Miró al caminante</p><p>Y ya no lloraba</p><p>Y le dio la mano</p><p>Mientras lo miraba</p><p>Y olvidó el cro cro y olvidó la rana</p><p>Y esta señorita</p><p>De sombrero blanco</p><p>Con su caminante</p><p>Se reía tanto</p><p>Y esta señorita</p><p>De sombrero blanco</p><p>Con su caminante</p><p>Se reía tanto</p><p>Que se le <a href="https://es.wiktionary.org/wiki/cayeron">cayeron</a></p><p>Todos los botones</p><p>Y ya se acabo el cuento</p><p>Señoras, señores</p></root>
+
+</div>
+<h1></h1>
+<p>
+
+<blockquote class="bq"></blockquote>
+
+</p>
+
+<script>
+"use strict"
+
+function darkMode() {
+ document.querySelector("body").style.cssText =
+ "color: #ffffff; background-color: #000000;"
+ var blockquotes = document.querySelectorAll("blockquote")
+ for (var i = 0; i < blockquotes.length; i++) {
+ blockquotes[i].style.cssText = "color: #fffffffc;; background-color: #000000fc;"
+ }
+ var anchors = document.querySelectorAll("a")
+ for (var i = 0; i < anchors.length; i++) {
+        anchors[i].style.cssText = "color: #ffccff;"
+ }
+}
+function lightMode() {
+ document.querySelector("body").style.cssText =
+ "color: #000000; background-color: #ffffff;"
+ var blockquotes = document.querySelectorAll("blockquote")
+ for (var i = 0; i < blockquotes.length; i++) {
+ blockquotes[i].style.cssText = "color: #000000fc; background-color: #fffffffc;"
+ }
+ var anchors = document.querySelectorAll("a")
+ for (var i = 0; i < anchors.length; i++) {
+        anchors[i].style.cssText = "color:"
+ }
+}
+
+</script>
+</body>
+</html>

@@ -6,7 +6,7 @@ Esta era una vez
 
 Una Señorita
 
-Con sombrero blanco
+Con [sombrero](#so) blanco
 
 Y muchos [botones](#bo)
 
@@ -17,8 +17,10 @@ Tan [aseñorada][6]
 Nunca se reía
 
 Y siempre lloraba
-
-![][2]<br id=bo>
+<br id=so>
+![][9]
+<br id=bo>
+![][2]
 
 
 Pasó un caminante
@@ -36,8 +38,8 @@ Tenía una [rana](#ra)
 Que todas las noches
 
 Cro-Cro-Cro cantaba
-
-![][3]<br id=ra>
+<br id=ra>
+![][3]
 
 
 
@@ -141,3 +143,4 @@ Señoras, señores
 [6]: https://dle.rae.es/ase%C3%B1orado?m=form
 [7]: https://es.wiktionary.org/wiki/puesto
 [8]: https://youtu.be/yyJt5_Hlm_A
+[9]: https://image.posterlounge.es/images/big/1873079.jpg

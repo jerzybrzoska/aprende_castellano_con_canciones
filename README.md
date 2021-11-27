@@ -28,18 +28,6 @@ Monero (XMR):
 
 89v8u8tFSsA1iYHgHYvtypBpbQLei7hZ73ajSDQvbsaX2h2213d74rvTwGueRV8YEphkGLiWqo1fD1xXTVcni4iMMCGRvj8
 
-
-
-
-
-
-
-
-
-
-
-
-
 [1]: https://htmlpreview.github.io/?
 [2]: https://www.youtube.com/user/Tikitikliponline/about
 [4]: https://htmlpreview.github.io/?https://github.com/jerzybrzoska/aprende_castellano_con_canciones/blob/main/laSe%C3%B1oritaAse%C3%B1orada.html

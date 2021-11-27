@@ -20,6 +20,8 @@ or just skip to the [contents](#co)
 
 [Frente a Frente][8] - Enrique Bunbury con Miren Iza “Tulsa" 
 
+[Niña de la escuela][10] - Lola Indigo, TINI, Belinda 
+
 #### Donations
 
 Donations would help me to continue developing this project:
@@ -36,3 +38,4 @@ Monero (XMR):
 [7]: https://www.youtube.com/user/DagninoSamantha/about
 [8]: https://htmlpreview.github.io/?https://github.com/jerzybrzoska/aprende_castellano_con_canciones/blob/main/frente_a_frente.html
 [9]: https://htmlpreview.github.io/?https://github.com/jerzybrzoska/aprende_castellano_con_canciones/blob/main/Aqui_te_pillo.html
+[10]: https://htmlpreview.github.io/?https://github.com/jerzybrzoska/aprende_castellano_con_canciones/blob/main/La_Niña_de_La_Escuela.html
